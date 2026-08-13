@@ -9,92 +9,58 @@
 | 3      | 2420030468    | Nidumolu Veda Samhita |
 | 4      | 2420090076    | Sushmita Sallam       |
 
-## Supervisor
-
-**Ms. G Lavanya**
+**Supervisor:**
+Ms. G Lavanya
 
 ## Abstract
 
-AssetFlow – AI-Powered Enterprise IT Asset Management Platform with Intelligent Asset Tracking & Lifecycle Monitoring is a web-based enterprise application designed to simplify and automate the management of organizational IT assets throughout their complete lifecycle.
+**AssetFlow – AI-Powered Enterprise IT Asset Management Platform with Intelligent Asset Tracking & Lifecycle Monitoring** is a modern, centralized web-based application designed to simplify and automate the management of an organization’s IT assets throughout their complete lifecycle. Many organizations still depend on spreadsheets and manual records to manage laptops, desktops, monitors, printers, networking devices, and other IT equipment. These approaches can result in duplicate records, inaccurate information, asset misplacement, inefficient allocation, and limited visibility into asset availability and condition. AssetFlow addresses these challenges by providing a secure, intelligent, and centralized solution for IT asset tracking, inventory management, and lifecycle monitoring.
 
-Organizations manage a large number of assets such as laptops, desktops, servers, networking devices, and other IT equipment. Maintaining accurate asset records, monitoring asset assignments, tracking maintenance activities, and identifying assets approaching replacement can become difficult when these activities are handled manually. AssetFlow addresses these challenges through a centralized platform for efficient asset registration, tracking, assignment, monitoring, and lifecycle management.
+The platform enables administrators and authorized users to register, categorize, assign, transfer, update, and monitor IT assets efficiently. Each asset maintains essential information such as asset ID, category, purchase details, assigned employee, department, location, condition, warranty information, and current status. A unique QR code is associated with every asset to enable quick identification and access to asset information, assignment history, maintenance records, and lifecycle details. The system also maintains records of asset allocation, returns, maintenance activities, and status changes, providing complete visibility throughout the asset lifecycle.
 
-The platform enables administrators and authorized users to register IT assets, maintain asset information, assign assets to employees or departments, track asset status, and monitor asset lifecycle events. The system provides centralized visibility into available, assigned, under-maintenance, and retired assets.
+AssetFlow incorporates AI-powered analytics to assist organizations in identifying assets that may require maintenance, detecting warranty expiry patterns, analyzing asset utilization, and recommending potential asset replacements. These capabilities help organizations make informed decisions regarding maintenance, procurement, allocation, and replacement of IT resources.
 
-AssetFlow is developed using modern Software Engineering practices. The application follows an Agile development approach with requirements organized into user stories and development activities managed through a prioritized product backlog. Jira is used for task and sprint management, while Git and GitHub are used for version control and collaborative development.
+The frontend is developed using **React.js**, providing a responsive and user-friendly interface. **Spring Boot 3** is used for backend development and RESTful API implementation, while **Spring Security** and **JWT authentication** provide secure authentication and role-based access control. **PostgreSQL** is used as the relational database for storing asset, user, assignment, maintenance, and inventory information.
 
-The backend is implemented using Spring Boot 3 and provides RESTful APIs for asset management and business operations. React.js is used to develop the interactive frontend, while PostgreSQL is used as the relational database for storing asset and user information.
+To ensure portability and consistent deployment across environments, the application is containerized using **Docker**. **Git and GitHub** are used for source code management and collaborative development, while **Jira** supports Agile project management through sprint planning, task tracking, issue management, and progress monitoring.
 
-Docker is used to containerize application components, providing a consistent development and deployment environment. The system is designed with a modular and scalable architecture that can be extended with intelligent asset monitoring and AI-powered capabilities for asset lifecycle analysis, maintenance prediction, and decision support.
-
-Overall, AssetFlow provides a centralized, scalable, and intelligent solution for enterprise IT asset management, helping organizations improve asset visibility, reduce manual effort, optimize asset utilization, and make better lifecycle management decisions.
-
-## Objectives
-
-* Centralize IT asset information in a single platform.
-* Track assets throughout their complete lifecycle.
-* Manage asset assignment to employees and departments.
-* Monitor asset status and availability.
-* Maintain accurate asset records and history.
-* Reduce manual effort involved in asset management.
-* Provide intelligent insights for asset lifecycle management.
-* Improve asset utilization and operational efficiency.
-* Provide a scalable and maintainable enterprise application.
-
-## Key Features
-
-### Asset Management
-
-* Register new IT assets.
-* Update and maintain asset information.
-* View complete asset details.
-* Search and filter assets.
-* Categorize assets based on type and status.
-
-### Asset Tracking
-
-* Track asset assignment and ownership.
-* Monitor current asset status.
-* Track available, assigned, maintenance, and retired assets.
-* Maintain asset lifecycle history.
-
-### Employee and Department Management
-
-* Manage employees and departments.
-* Assign assets to employees or departments.
-* View assets associated with specific users or departments.
-
-### Lifecycle Monitoring
-
-* Monitor asset acquisition and assignment.
-* Track maintenance activities.
-* Identify assets approaching end-of-life.
-* Manage asset retirement and replacement.
-
-### Intelligent Asset Management
-
-* Analyze asset lifecycle information.
-* Generate intelligent insights from asset data.
-* Support maintenance and replacement decisions.
-* Provide data-driven asset management recommendations.
+Overall, AssetFlow provides a secure, scalable, and intelligent enterprise IT asset management solution that improves asset visibility, enhances inventory accuracy, simplifies lifecycle management, reduces manual effort, and supports data-driven asset management decisions through modern software engineering practices.
 
 ## Technologies Used
 
 ### Frontend
 
 * React.js
+* JavaScript
+* Tailwind CSS
+* HTML5
+* CSS3
 
 ### Backend
 
-* Java
+* Java 21
 * Spring Boot 3
+* Spring Security
 * REST APIs
+* JWT Authentication
 
 ### Database
 
 * PostgreSQL
 
-### DevOps & Development
+### AI / Intelligent Analytics
+
+* Python
+* Scikit-learn
+* Pandas
+* FastAPI
+
+### Asset Tracking
+
+* QR Code Generation
+* QR Code Scanner
+
+### DevOps & Deployment
 
 * Git
 * GitHub
@@ -103,54 +69,7 @@ Overall, AssetFlow provides a centralized, scalable, and intelligent solution fo
 ### Project Management
 
 * Jira
-
-### AI / Intelligent Components
-
-* AI-powered asset lifecycle analysis
-* Intelligent asset tracking
-* Predictive asset monitoring and recommendations
-
-## System Architecture
-
-The AssetFlow application follows a layered web application architecture:
-
-```text
-Users
-  |
-  v
-React.js Frontend
-  |
-  v
-Spring Boot 3 REST APIs
-  |
-  v
-Business Logic / Asset Management Services
-  |
-  v
-PostgreSQL Database
-```
-
-Docker is used to containerize the application components and provide a consistent environment for development and deployment.
-
-## Project Structure
-
-```text
-AssetFlow/
-│
-├── src/
-│   ├── frontend/
-│   └── backend/
-│
-├── docs/
-│
-├── data/
-│
-├── results/
-│
-├── reports/
-│
-└── README.md
-```
+* Agile / Scrum
 
 ## Setup Instructions
 
@@ -158,16 +77,16 @@ AssetFlow/
 
 Make sure the following software is installed:
 
-* Java 21 or compatible Java version required by the project
+* Java 21
 * Node.js and npm
 * PostgreSQL
+* Python 3.x
 * Git
 * Docker
-* GitHub account
 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/sarayu1001/KLH-CSE-2026-27-2420030249-AssetFlow.git
-cd KLH-CSE-2026-27-2420030249-AssetFlow
+git clone https://github.com/Varshitha-0406/KLH-CSE-2026-27-2420030269-AssetFlow.git
+cd KLH-CSE-2026-27-2420030269-AssetFlow
 ```
