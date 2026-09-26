@@ -2,14 +2,15 @@
 
 ## Team Members
 
-| S. No. | University ID | Name                  |
+| S. No. | University ID | Name |
 | ------ | ------------- | --------------------- |
-| 1      | 2420030249    | Anakala Sarayu        |
-| 2      | 2420030269    | Manduri Varshitha     |
-| 3      | 2420030468    | Nidumolu Veda Samhita |
-| 4      | 2420090076    | Sushmita Sallam       |
+| 1 | 2420030249 | Anakala Sarayu |
+| 2 | 2420030269 | Manduri Varshitha |
+| 3 | 2420030468 | Nidumolu Veda Samhita |
+| 4 | 2420090076 | Sushmita Sallam |
 
 **Supervisor:**
+
 Ms. G Lavanya
 
 ## Abstract
@@ -22,7 +23,7 @@ AssetFlow incorporates AI-powered analytics to assist organizations in identifyi
 
 The frontend is developed using React.js, providing a responsive and user-friendly interface. Spring Boot 3 is used for backend development and RESTful API implementation, while Spring Security and JWT authentication provide secure authentication and role-based access control. PostgreSQL is used as the relational database for storing asset, user, assignment, maintenance, and inventory information.
 
-To ensure portability and consistent deployment across environments, the application is containerized using Docker. Git and GitHub are used for source code management and collaborative development, while **Jira** supports Agile project management through sprint planning, task tracking, issue management, and progress monitoring.
+To ensure portability and consistent deployment across environments, the application is containerized using Docker. Git and GitHub are used for source code management and collaborative development, while Jira supports Agile project management through sprint planning, task tracking, issue management, and progress monitoring.
 
 Overall, AssetFlow provides a secure, scalable, and intelligent enterprise IT asset management solution that improves asset visibility, enhances inventory accuracy, simplifies lifecycle management, reduces manual effort, and supports data-driven asset management decisions through modern software engineering practices.
 
@@ -87,7 +88,6 @@ Make sure the following software is installed:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Varshitha-0406/KLH-CSE-2026-27-2420030269-AssetFlow.git
-cd KLH-CSE-2026-27-2420030269-AssetFlow
-```
+git clone https://github.com/sarayu1001/KLH-CSE-2026-27-2420030249-AssetFlow.git
 
+cd KLH-CSE-2026-27-2420030249-AssetFlow
